@@ -1,70 +1,84 @@
-# Getting Started with Create React App
+<h1 align="center">
+    <img src="./assets/screen_shoot_home.png" alt="Home page Costs"/>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2 align="center">Costs</h2>
+<p> 
+  O <strong>Costs</strong> é uma plataforma para gerenciamento de custos de projetos de tecnologia (POC) desenvolvida durante o curso para aprendizado de <strong>React</strong> do <strong>Matheus Battisti<strong>.
+</p>
 
-## Available Scripts
+[_Link do Curso no youtube_](https://www.youtube.com/watch?v=FXqX7oof0I4&list=PLnDvRpP8BneyVA0SZ2okm-QBojomniQVO)
 
-In the project directory, you can run:
+## :dart: Índice
 
-### `npm start`
+- [Status](##status)
+- [Tecnologias](#tecnologias)
+- [Pré-Requisitos](#pre-requisitos)
+- [Executando o projeto](#executando-o-projeto)
+- [Licença](#licença)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## :game_die: Status
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/Juliocsilvestre/costs?style=for-the-badge" alt="Repository size">
+  <img src="https://img.shields.io/github/license/Juliocsilvestre/costs?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/languages/count/Juliocsilvestre/costs?style=for-the-badge&color=eb152a" alt="Counter Languages">
+  <img src="https://img.shields.io/github/last-commit/Juliocsilvestre/costs?style=for-the-badge&color=f50cbb" alt="Last commit">
+</p>
 
-### `npm test`
+## :toolbox: Tecnologias
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [react](https://reactjs.org/)
+- [uuid](https://www.npmjs.com/package/uuid)
+- [json-server](https://www.npmjs.com/package/json-server)
 
-### `npm run build`
+## :heavy_check_mark: Pré-requisitos
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Antes de iniciar, certifique-se que tenha instalado em seu computador as seguintes ferramentas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [Node.js](https://nodejs.org/)
+- [Visual Studio Code](https://visualstudio.microsoft.com/pt-br/)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :gear: Executando o projeto
 
-### `npm run eject`
+1. _Faça o clone do repositório:_
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+$ git clone https://github.com/Juliocsilvestre/crud-react-api
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. _Instale as depêndencias do projeto:_
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```sh
+# Acesse o diretório do projeto:
+$ cd costs
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Instale as dependências:
+$ npm install
+```
 
-## Learn More
+3. _Execute a aplicação:_
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```sh
+$ npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. _Em seguida abra um segundo terminal, para executarmos o banco de dados (json-server):_
 
-### Code Splitting
+```sh
+# OBS: Não se esqueça de estar na raiz do projeto, da mesma forma que no primeiro terminal.
+$ npm run backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Pronto! Caso o navegador não abra automaticamente, a aplicação estará rodando em: `localhost:3000`
 
-### Analyzing the Bundle Size
+## :bookmark_tabs: Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Este projeto está licenciado nos termos da licença MIT. Veja o arquivo [LICENSE](./LICENSE) para mais detalhes.
 
-### Making a Progressive Web App
+## :jigsaw: Contato
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- :mailbox_with_mail: E-mail: <a href="mailto:jcss.silvestre@gmail.com">jcss.silvestre@gmail.com</a>
+- :pushpin: Linkedin: [in/luizeduardobilotta](https://www.linkedin.com/in/juliocsilvestre/)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<sup>Desenvolvido por <i><strong>Julio Silvestre.</i></strong></sup>
