@@ -20,10 +20,10 @@
 ## :game_die: Status
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/Juliocsilvestre/costs?style=for-the-badge" alt="Repository size">
-  <img src="https://img.shields.io/github/license/Juliocsilvestre/costs?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/github/languages/count/Juliocsilvestre/costs?style=for-the-badge&color=eb152a" alt="Counter Languages">
-  <img src="https://img.shields.io/github/last-commit/Juliocsilvestre/costs?style=for-the-badge&color=f50cbb" alt="Last commit">
+  <img src="https://img.shields.io/github/repo-size/Juliocsilvestre/crud-react-api?style=for-the-badge" alt="Repository size">
+  <img src="https://img.shields.io/github/license/Juliocsilvestre/crud-react-api?style=for-the-badge" alt="License">
+  <img src="https://img.shields.io/github/languages/count/Juliocsilvestre/crud-react-api?style=for-the-badge&color=eb152a" alt="Counter Languages">
+  <img src="https://img.shields.io/github/last-commit/Juliocsilvestre/crud-react-api?style=for-the-badge&color=f50cbb" alt="Last commit">
 </p>
 
 ## :toolbox: Tecnologias
@@ -51,7 +51,7 @@ $ git clone https://github.com/Juliocsilvestre/crud-react-api
 
 ```sh
 # Acesse o diretório do projeto:
-$ cd costs
+$ cd crud-react-api
 
 # Instale as dependências:
 $ npm install
