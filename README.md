@@ -79,6 +79,6 @@ Este projeto está licenciado nos termos da licença MIT. Veja o arquivo [LICENS
 ## :jigsaw: Contato
 
 - :mailbox_with_mail: E-mail: <a href="mailto:jcss.silvestre@gmail.com">jcss.silvestre@gmail.com</a>
-- :pushpin: Linkedin: [in/luizeduardobilotta](https://www.linkedin.com/in/juliocsilvestre/)
+- :pushpin: Linkedin: [in/juliocsilvestre](https://www.linkedin.com/in/juliocsilvestre/)
 
 <sup>Desenvolvido por <i><strong>Julio Silvestre.</i></strong></sup>
